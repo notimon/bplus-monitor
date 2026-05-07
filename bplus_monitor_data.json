@@ -1,1 +1,76 @@
-{"ts": "2026-05-07 16:29:59", "bal": 157.67, "coins": [{"c": "LINK", "p": 10.079, "s": 2.0, "th": -0.8, "mf": false}, {"c": "SUI", "p": 0.9999, "s": 1.97, "th": -0.8, "mf": false}, {"c": "DOGE", "p": 0.1116, "s": 0.65, "th": -0.6, "mf": false}, {"c": "ADA", "p": 0.268, "s": 2.0, "th": -1.5, "mf": false}], "bot": true, "strat": {"ADA-USDT": {"sigma": 1.5, "tp": 0.08, "sl": 0.12, "alloc": 0.25}, "DOGE-USDT": {"sigma": 0.6, "tp": 0.03, "sl": 0.1, "alloc": 0.25}, "SUI-USDT": {"sigma": 0.8, "tp": 0.05, "sl": 0.1, "alloc": 0.2}, "LINK-USDT": {"sigma": 0.8, "tp": 0.08, "sl": 0.12, "alloc": 0.25}, "total_capital": 100, "market_filter": "MA20 >= MA50 * 0.95"}}
+{
+  "timestamp": "2026-05-07 19:50:51",
+  "bot_running": true,
+  "balance_usdt": 37.69,
+  "total_equity": 0,
+  "positions": [],
+  "coins": [
+    {
+      "coin": "LINK",
+      "price": 10.022,
+      "sigma": 1.84,
+      "threshold": -0.8,
+      "status": "waiting",
+      "status_text": "⏳",
+      "market_filtered": false
+    },
+    {
+      "coin": "SUI",
+      "price": 0.9929,
+      "sigma": 1.77,
+      "threshold": -0.8,
+      "status": "waiting",
+      "status_text": "⏳",
+      "market_filtered": false
+    },
+    {
+      "coin": "DOGE",
+      "price": 0.11104,
+      "sigma": 0.47,
+      "threshold": -0.6,
+      "status": "waiting",
+      "status_text": "⏳",
+      "market_filtered": false
+    },
+    {
+      "coin": "ADA",
+      "price": 0.2679,
+      "sigma": 1.99,
+      "threshold": -1.5,
+      "status": "waiting",
+      "status_text": "⏳",
+      "market_filtered": false
+    }
+  ],
+  "recent_trades": [],
+  "strategy_version": "v2.0",
+  "check_interval_s": 900,
+  "strategy": {
+    "ADA-USDT": {
+      "sigma": 1.5,
+      "tp": 0.08,
+      "sl": 0.12,
+      "alloc": 0.25
+    },
+    "DOGE-USDT": {
+      "sigma": 0.6,
+      "tp": 0.03,
+      "sl": 0.1,
+      "alloc": 0.25
+    },
+    "SUI-USDT": {
+      "sigma": 0.8,
+      "tp": 0.05,
+      "sl": 0.1,
+      "alloc": 0.2
+    },
+    "LINK-USDT": {
+      "sigma": 0.8,
+      "tp": 0.08,
+      "sl": 0.12,
+      "alloc": 0.25
+    },
+    "total_capital": 100,
+    "market_filter": "MA20 >= MA50 * 0.95"
+  }
+}
