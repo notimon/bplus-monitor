@@ -1,10 +1,19 @@
 {
-  "timestamp": "2026-05-08 11:43:00",
+  "timestamp": "2026-05-08 11:44:02",
   "bot_running": true,
   "balance_usdt": 0.67,
   "total_equity": 0,
   "positions": [],
   "coins": [
+    {
+      "coin": "ADA",
+      "price": 0.2623,
+      "sigma": 1.06,
+      "threshold": -1.5,
+      "status": "waiting",
+      "status_text": "⏳",
+      "market_filtered": false
+    },
     {
       "coin": "LINK",
       "price": 9.863,
@@ -19,15 +28,6 @@
       "price": 0.9655,
       "sigma": 0.75,
       "threshold": -0.8,
-      "status": "waiting",
-      "status_text": "⏳",
-      "market_filtered": false
-    },
-    {
-      "coin": "ADA",
-      "price": 0.262,
-      "sigma": 1.02,
-      "threshold": -1.5,
       "status": "waiting",
       "status_text": "⏳",
       "market_filtered": false
