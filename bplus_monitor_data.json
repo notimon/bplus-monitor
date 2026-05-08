@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-08 18:32:25",
+  "timestamp": "2026-05-08 18:33:27",
   "bot_running": true,
   "balance_usdt": 24.59,
   "total_equity": 0,
@@ -7,8 +7,8 @@
   "coins": [
     {
       "coin": "LINK",
-      "price": 9.878,
-      "sigma": 1.11,
+      "price": 9.911,
+      "sigma": 1.2,
       "threshold": -0.8,
       "status": "waiting",
       "status_text": "⏳",
@@ -16,8 +16,8 @@
     },
     {
       "coin": "SUI",
-      "price": 0.9758,
-      "sigma": 1.01,
+      "price": 0.9796,
+      "sigma": 1.13,
       "threshold": -0.8,
       "status": "waiting",
       "status_text": "⏳",
@@ -25,8 +25,8 @@
     },
     {
       "coin": "ADA",
-      "price": 0.2633,
-      "sigma": 1.11,
+      "price": 0.2637,
+      "sigma": 1.16,
       "threshold": -1.5,
       "status": "waiting",
       "status_text": "⏳",
@@ -43,6 +43,12 @@
     }
   ],
   "recent_trades": [
+    {
+      "coin": "DOGE",
+      "action": "买入",
+      "qty": 217.883154,
+      "line": "2026-05-08 18:32:48,174 [INFO]   DOGE-USDT: 🟢 进场 σ=-1.02 买入 217.883154 ($23.3)"
+    },
     {
       "coin": "DOGE",
       "action": "买入",
@@ -96,12 +102,6 @@
       "action": "买入",
       "qty": 218.987084,
       "line": "2026-05-08 16:16:36,156 [INFO]   DOGE-USDT: 🟢 进场 σ=-1.22 买入 218.987084 ($23.3)"
-    },
-    {
-      "coin": "DOGE",
-      "action": "买入",
-      "qty": 219.357551,
-      "line": "2026-05-08 16:01:26,455 [INFO]   DOGE-USDT: 🟢 进场 σ=-1.28 买入 219.357551 ($23.3)"
     }
   ],
   "strategy_version": "v2.0",
