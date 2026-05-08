@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-08 12:28:56",
+  "timestamp": "2026-05-08 12:29:58",
   "bot_running": true,
   "balance_usdt": 0.67,
   "total_equity": 0,
@@ -7,8 +7,8 @@
   "coins": [
     {
       "coin": "LINK",
-      "price": 9.882,
-      "sigma": 1.17,
+      "price": 9.891,
+      "sigma": 1.2,
       "threshold": -0.8,
       "status": "waiting",
       "status_text": "⏳",
@@ -16,8 +16,8 @@
     },
     {
       "coin": "SUI",
-      "price": 0.9663,
-      "sigma": 0.75,
+      "price": 0.9678,
+      "sigma": 0.79,
       "threshold": -0.8,
       "status": "waiting",
       "status_text": "⏳",
@@ -25,8 +25,8 @@
     },
     {
       "coin": "ADA",
-      "price": 0.2621,
-      "sigma": 1.0,
+      "price": 0.2624,
+      "sigma": 1.04,
       "threshold": -1.5,
       "status": "waiting",
       "status_text": "⏳",
